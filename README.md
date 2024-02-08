@@ -12,6 +12,20 @@ $ yarn add @mui/material @emotion/react @emotion/styled
 $ yarn add react-hook-form
 ```
 
+## @types/testing-library__jest-domをインストールします
+"Property 'toBeInTheDocument' does not exist on type 'JestMatchers<HTMLElement>'."
+エラーが出るので対処
+```
+$ yarn add @types/testing-library__jest-dom
+$ yarn add @types/testing-library__react
+```
+
+## バリデーションルールを追加
+```
+$ yarn add @hookform/resolvers yup
+```
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
